@@ -1,0 +1,75 @@
+#!/bin/bash
+#Script that backups folders
+echo "Hello, $USER !"
+echo "------------------- Meniu ------------------"
+echo "1. Program a backup"
+echo "--------------------------------------------"
+echo "2. Make a backup"
+echo "--------------------------------------------"
+echo "3. Recover the folders from the last backup"
+echo "--------------------------------------------"
+echo "For exit type 'finish'"
+echo "--------------------------------------------"
+echo -n "Enter one of the options from [1 - 3] : "
+read opt
+case $opt in
+1)
+   cnt=0;
+   dest="/home/chris/backup";
+   echo "Enter folder path: (4 Pt continuare)";
+   read director;
+   until [ ! "$director" -lt 4 ]
+   do
+     cnt=$((cnt + 1));
+     directoare+="$director ";
+     echo "Enter folder path: (4 Pt continuare)";
+     read director;
+   done
+   echo "The folders to be archieved are: $directoare";
+   echo "Enter a valid time stamp (e.g hour:minutes month day)";
+   read time_stamp;
+   lista=( $directoare );
+   DATE=`date '+%m-%d-%Y-%H-%M-%S'`;
+   echo "tar -cf arhiva_$DATE.tar ${lista[0]}" | at $time_stamp;
+   for (( i = 1; i< $cnt; i++ ))
+   do
+   echo "tar -rvf arhiva_$DATE.tar ${lista[$i]}" | at $time_stamp +$i minutes;
+   done
+   echo "mv arhiva_$DATE.tar $dest" | at $time_stamp +$i minutes;
+   clear;
+   echo "Backupul will begin at the date: $time_stamp";;
+2)
+   cnt=0;
+   dest="/home/chris/backup";
+   echo "Enter folder path: (4 Pt continuare)";
+   read director;
+   until [ ! $director -lt 4 ]
+   do
+     cnt=$((cnt + 1));
+     directoare+="$director ";
+     echo "Enter folder path: (4 Pt continuare)";
+     read director;
+   done
+   echo "Folders to be archieved are: $directoare";
+   lista=( $directoare );
+   DATE=`date '+%m-%d-%Y-%H-%M-%S'`;
+   tar -cf arhiva_$DATE.tar ${lista[0]};
+   for (( i = 1; i< $cnt; i++ ))
+   do
+   tar -rvf arhiva_$DATE.tar ${lista[$i]};
+   done
+   mv arhiva_$DATE.tar $dest;
+   clear;
+   echo "Backup done";;
+3)
+   dest="/home/chris/recovery";
+   sursa="/home/chris/backup";
+   tar -xf $sursa/arhiva* -C $dest;
+   clear;
+   echo "Recovery done!";;
+finish)
+ exit 1;;
+*)
+ echo "Options are only from 1 to 3!";;
+esac
+echo "La revedere, $USER !"
