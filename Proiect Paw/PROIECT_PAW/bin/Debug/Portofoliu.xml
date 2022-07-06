@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <Actiune>
+    <Simbol>ARS</Simbol>
+    <Emitent>AEROSTAR S.A.</Emitent>
+    <Cantitate>4</Cantitate>
+    <Ultimul_Pret>7.9</Ultimul_Pret>
+    <Pret_referinta>8.2</Pret_referinta>
+    <Pret_achizitie>8.13</Pret_achizitie>
+    <Data>04-May-22 12:00:00 AM</Data>
+  </Actiune>
+  <Actiune>
+    <Simbol>BRD</Simbol>
+    <Emitent>BRD-GROUPE SOCIETE GENERALE</Emitent>
+    <Cantitate>7</Cantitate>
+    <Ultimul_Pret>16.46</Ultimul_Pret>
+    <Pret_referinta>16.7</Pret_referinta>
+    <Pret_achizitie>13</Pret_achizitie>
+    <Data>13-Apr-22 12:00:00 AM</Data>
+  </Actiune>
+</catalog>

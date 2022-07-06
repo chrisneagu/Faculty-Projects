@@ -1,0 +1,15 @@
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\bin\x64\Debug\PROIECT_PAW.exe.config
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\bin\x64\Debug\PROIECT_PAW.exe
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\bin\x64\Debug\PROIECT_PAW.pdb
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.csproj.AssemblyReference.cache
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.csproj.SuggestedBindingRedirects.cache
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.Cont.resources
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.Desen.resources
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.Form1.resources
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.Properties.Resources.resources
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.Register.resources
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.csproj.GenerateResource.cache
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.csproj.CoreCompileInputs.cache
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.exe
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.pdb
+C:\Users\LaptopChris\source\repos\PAW\Seminare\PROIECT_PAW\PROIECT_PAW\obj\x64\Debug\PROIECT_PAW.Cumparare.resources

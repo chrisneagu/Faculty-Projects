@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <Actiune>
+    <Simbol>TES</Simbol>
+    <Emitent>Tesla</Emitent>
+    <Cantitate>4</Cantitate>
+    <Ultimul_Pret>120</Ultimul_Pret>
+    <Pret_referinta>130</Pret_referinta>
+    <Pret_achizitie>170</Pret_achizitie>
+    <Data>03-Apr-21 12:00:00 AM</Data>
+  </Actiune>
+  <Actiune>
+    <Simbol>UBE</Simbol>
+    <Emitent>Uber</Emitent>
+    <Cantitate>10</Cantitate>
+    <Ultimul_Pret>39.45</Ultimul_Pret>
+    <Pret_referinta>42.58</Pret_referinta>
+    <Pret_achizitie>40.22</Pret_achizitie>
+    <Data>15-Jun-22 12:00:00 AM</Data>
+  </Actiune>
+</catalog>
